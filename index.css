@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+}
+body{
+	/*font-family: SimHei,"黑体", Hiragino Sans GB, "冬青黑体", sans-serif;*/
+}
+.container{
+	width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+.header-box{
+	height: 100vh;
+	background: #192314;
+	
+	position: relative;
+}
+.header-pic-box{
+	width: 652px;
+	height: 502px;
+	background: url(green-beosound-shape-desktop.jpg);
+	background-size: cover;
+	float: right;
+}
+.header-text-box{
+	width: 512px;
+	height: 200px;
+	position: absolute;
+	left: 100px;
+	top: 150px;
+	color: #fff;
+	font-size: 12px;
+}
+.description{
+	line-height: 24px;
+	margin-bottom: 10px;
+	font-family: "Gotham SSm A","Gotham SSm B";
+	letter-spacing: 2px;
+}
+.title{
+	line-height: 39px;
+	margin-top: 15px;
+	margin-bottom: 24px; 
+	font-size: 30px;
+	letter-spacing: 3.73px;
+	font-weight: normal;
+
+}
+.small-desc{
+	line-height: 21px;
+	margin-bottom: 20px;
+	font-size: 13px;
+	font-family: "Gotham SSm A","Gotham SSm B";
+	letter-spacing: normal;
+}
+.button{
+	display: block;
+	width: 202px;
+	line-height: 21px;
+	padding: 10px 40px;
+	margin: 10px 0;
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+	background: rgba(255,255,255,.1);
+	font-weight: 500;
+	font-family: "Gotham SSm A","Gotham SSm B";
+	letter-spacing: 1.3332px;
+	text-align: center;
+}
+.banner-box{
+	height: 305px;
+	background:url(img-bg-1350.jpg);
+	background-size: 100% auto;
+	padding: 0 0 100px 0;
+	background-position: 0 -158px;
+}
+.product-box{
+	width: 705px;
+	height: 353px;
+	background: red;
+	margin: 0 auto;
+	margin-top: -48px;
+	position: relative;
+	z-index: 100;
+}
+.product-box-item{
+	width: 235px;
+	height: 313px;
+	float: left;
+	position: relative;
+}
+.product-box-item img{
+	width: 100%
+}
+.product-box-item h4{
+	position: absolute;
+	color:#fff;
+	line-height: 24px;
+	letter-spacing: normal;
+	font-weight: 500;
+	font-size: 18px;
+	top: 15px;
+	left:20px;
+	right: 12px;
+	bottom: 25px;
+}
+.top-box{
+	width: 100%;
+	height: 57px;
+	display: flex;
+	padding:0 22px;
+	justify-content: space-between;
+	box-sizing: border-box;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 2000;
+}
+.left,.right{
+	width:128px;
+	height: 100%;
+	text-align: center;
+	line-height: 57px;
+	font-size: 12px;
+	color: #fff;
+}
+.left{
+	background-image: url(product.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.right{
+	background-image: url(menu.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.center{
+	padding: 12px;
+	width: 191px;
+	height: 100%;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	text-align:center;
+	box-sizing: border-box;
+}
+.title-box{
+	text-align: center;
+	padding-top: 90px;
+	height: 318px;
+	box-sizing:border-box;
+	margin-bottom: 20px; 
+}
+.title-box h6{
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 13px;
+	letter-spacing: 2px;
+	margin: 12px 0 18px 0;
+}
+.title-box h2{
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 60px;
+	letter-spacing: 4px;
+	margin: 25px 0 40px 0;
+}
+.product-list{
+	width: 720px;
+	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+.product{
+	width: 235px;
+	height: 165px;
+	color: #fff;
+	position: relative;
+}
+.product h6{
+	top: 15px;
+	left: 20px;
+	font-weight:normal;
+	letter-spacing:2px;
+	margin-bottom: 4px; 
+	font-size: 12px;
+	position: absolute;
+}
+.product:nth-child(1){
+	background-image: url(beosound-shape.jpg);
+	background-size: cover;
+
+}
+.product:nth-child(2){
+	background-image: url(beovision-eclipse.jpg);
+	background-size: cover;
+}
+.product:nth-child(3){
+	background-image: url(beolab-50.jpg);
+	background-size: cover;
+}
+.product:nth-child(4){
+	background-image: url(beoplay-h9i.jpg);
+	background-size: cover;
+}
+.product:nth-child(5){
+	background-image: url(beoplay-p6-lifestyle-3.jpg);
+	background-size: cover;
+}
+.product:nth-child(6){
+	background-image: url(beosound-core.jpg);
+	background-size: cover;
+}
+.story-box{
+	width: 712px;
+	display: flex;
+	margin: 0 auto;
+
+	height: 168px;
+}
+.story1{
+	width: 178px;
+	height: 100%;
+	
+}
+.story1:nth-child(1){
+	background-image:url(design-as-a-group-effort-01.jpg);
+	background-size: cover;
+}
+.story1:nth-child(2){
+	background-image:url(the-krane.jpg);
+	background-size: cover;
+}
+.story2{
+	width: 356px;
+	height: 100%;
+	background-image: url(harmonies-story.jpg);
+	background-size: cover;
+}
+.story3{
+	width: 178px;
+	height: 100%;
+	padding-top: 30px;
+	padding-right: 9px;
+	font-size: 13px;
+	font-weight: 300px;
+	line-height: 21px;
+	color: #666666;
+}
+
+.story4{
+	width: 356px;
+	height: 100%;
+	padding-top: 30px;
+	padding-right: 9px;
+	font-size: 13px;
+	font-weight: 300px;
+	line-height: 21px;
+	color: #666666;
+}
+.story-box h5{
+	margin-bottom: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: normal;
+	font-size: 12px; 
+	color: #000;
+}
